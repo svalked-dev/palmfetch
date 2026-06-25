@@ -44,7 +44,7 @@ class SystemFetcher:
     
     def show(self):
         info = self.get_info()
-        print("\033c", end="")  # очистка терминала (работает везде)
+        print("\033c", end="")
         
         if self.ascii_art:
             print(self.ascii_art)
